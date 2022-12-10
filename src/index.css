@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+.section {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+
+.notelist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr ) );
+  gap: 1rem;
+}
+
+.notebody {
+  background-color: rgb(240, 240, 100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.notefooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.notebody.addnote{
+  background-color: bisque;
+  
+  
+}
+
+.addnote textarea{
+  border: none;
+  background-color: bisque;
+  resize: none;
+  
+}
+.addnote textarea:focus{
+  outline: none;
+}
+
+
+
+
