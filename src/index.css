@@ -23,13 +23,51 @@ code {
   padding-left: 15px;
   padding-right: 15px;
   min-height: 100vh;
+  padding: 100px 0px;
 }
+.searching{
+  padding: 10px 20px;
+display: flex;
+align-items: center;
+border: 1px solid;
+max-width: 349px;
+margin: auto;
+border-radius: 65px;
+}
+.searching input{
+  padding: 20px 5px;
+  width: 100%;
+  max-width: 255px;
+  outline: none;
+  font-size: 20px;
+  border: none;  
+}
+.searching svg{
+  font-size: 22px;
+}
+.notefooter small{
+  font-style: italic;
+color: darkolivegreen;
+font-size: 15px;
+}
+/* #root{
+  background: rgb(147,126,51);
+} */
 
 
 .notelist {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr ) );
   gap: 1rem;
+  padding: 50px 0px;
+}
+.notefooter button{
+  padding: 12px 17px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-style: italic;  
 }
 
 .notebody {
